@@ -1,0 +1,13 @@
+Mine:
+
+CS:D27
+SCK:D26
+MOSI:D25
+MISO:D33
+
+Theirs:
+
+CS: D5
+SCK: D18
+MOSI:D23
+MISO:D19

@@ -94,8 +94,8 @@ void sendMsg(int machineNo, String dateVal, String timeStart, String timeStop, i
 size_t msgNo;
 
 /* Mailing List*/
-const String RECIPIENT_EMAILS[] = {"AbuBakr.Siddique@singerbd.com"};
-const String RECIPIENT_NAMES[] = {"Abu Bakr Siddique"};
+const String RECIPIENT_EMAILS[] = {"AbuBakr.Siddique@singerbd.com", "meghla.roy@singerbd.com"};
+const String RECIPIENT_NAMES[] = {"Abu Bakr Siddique", "Meghla Roy"};
 
 // Initial default HTML Message
 String htmlMsg =
@@ -694,6 +694,7 @@ void sendMsg(int machineNo, String dateVal, String timeStart, String timeStop, i
   message.sender.email = AUTHOR_EMAIL;
   message.subject = emailSubj;
   message.addRecipient(RECIPIENT_NAMES[0], RECIPIENT_EMAILS[0]);
+  message.addRecipient(RECIPIENT_NAMES[1], RECIPIENT_EMAILS[1]);
 
   // ------------------------------------- Modified Code -------------------------------------
   /*Modify HTML message*/
