@@ -53,7 +53,7 @@ bool bodyCountFlag;
 // ------------------------------------------------ Production Related Variables Above-------------------------------------------------
 
 // ---------------------------------------- Variables to Use IFTTT to write in Google Sheet --------------------------------------------
-// unique IFTTT URL resource obtaied from the Documentation of WebHooks in IFTTT
+// unique IFTTT URL resource obtained from the Documentation of WebHooks in IFTTT
 const char *countsURLResource = "/trigger/thermoDataStore/with/key/o6lD7agRVP_KC_fKE2G6gE9qAjubXj6rGaU-WhxAtCR";
 const char *dateTimeMsgURLResource = "/trigger/thermoData_lastDateAndHr/with/key/o6lD7agRVP_KC_fKE2G6gE9qAjubXj6rGaU-WhxAtCR";
 // Maker Webhooks IFTTT
