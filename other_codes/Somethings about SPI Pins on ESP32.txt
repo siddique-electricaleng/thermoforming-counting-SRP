@@ -1,0 +1,9 @@
+ESP32 variant: ESP32 DEVKIT DOIT V1
+Using VSPI pins as default on ESP32
+
+My ESP32 default SPI Pins after running "SPIDefaultPins_ESP32":
+
+MOSI: 23
+MISO: 19
+SCK: 18
+CS/SS: 5

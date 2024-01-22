@@ -5,6 +5,7 @@
 /* My Libraries */
 #include "myWiFiMulti.h"
 #include "myDateTime.h"
+#include "sdCardFileOperations.h"
 
 /* Global Date Variables - declared in myDateTime.h */
 int nowYear, nowMonth, nowDay;
