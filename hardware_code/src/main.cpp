@@ -14,7 +14,7 @@
 
 // // Get the digital logic of the AC input to solenoid valve in Thermoforming (Converted using the circuit)
 int digVal = 0;
-
+int unnecessaryInteger;
 const char *ntpServer = "pool.ntp.org";
 const long gmtOffset_sec = 6 * 3600;
 const int daylightOffset_sec = 0;
